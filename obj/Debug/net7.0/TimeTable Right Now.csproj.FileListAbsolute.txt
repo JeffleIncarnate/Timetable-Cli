@@ -1,0 +1,15 @@
+/home/dhruv/Documents/Code Files/C#/TimeTable Right Now/bin/Debug/net7.0/TimeTable Right Now
+/home/dhruv/Documents/Code Files/C#/TimeTable Right Now/bin/Debug/net7.0/TimeTable Right Now.deps.json
+/home/dhruv/Documents/Code Files/C#/TimeTable Right Now/bin/Debug/net7.0/TimeTable Right Now.runtimeconfig.json
+/home/dhruv/Documents/Code Files/C#/TimeTable Right Now/bin/Debug/net7.0/TimeTable Right Now.dll
+/home/dhruv/Documents/Code Files/C#/TimeTable Right Now/bin/Debug/net7.0/TimeTable Right Now.pdb
+/home/dhruv/Documents/Code Files/C#/TimeTable Right Now/obj/Debug/net7.0/TimeTable Right Now.csproj.AssemblyReference.cache
+/home/dhruv/Documents/Code Files/C#/TimeTable Right Now/obj/Debug/net7.0/TimeTable Right Now.GeneratedMSBuildEditorConfig.editorconfig
+/home/dhruv/Documents/Code Files/C#/TimeTable Right Now/obj/Debug/net7.0/TimeTable Right Now.AssemblyInfoInputs.cache
+/home/dhruv/Documents/Code Files/C#/TimeTable Right Now/obj/Debug/net7.0/TimeTable Right Now.AssemblyInfo.cs
+/home/dhruv/Documents/Code Files/C#/TimeTable Right Now/obj/Debug/net7.0/TimeTable Right Now.csproj.CoreCompileInputs.cache
+/home/dhruv/Documents/Code Files/C#/TimeTable Right Now/obj/Debug/net7.0/TimeTable Right Now.dll
+/home/dhruv/Documents/Code Files/C#/TimeTable Right Now/obj/Debug/net7.0/refint/TimeTable Right Now.dll
+/home/dhruv/Documents/Code Files/C#/TimeTable Right Now/obj/Debug/net7.0/TimeTable Right Now.pdb
+/home/dhruv/Documents/Code Files/C#/TimeTable Right Now/obj/Debug/net7.0/TimeTable Right Now.genruntimeconfig.cache
+/home/dhruv/Documents/Code Files/C#/TimeTable Right Now/obj/Debug/net7.0/ref/TimeTable Right Now.dll
