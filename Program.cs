@@ -67,7 +67,7 @@ namespace TimetableRightNow
 
     internal interface ITimeTable
     {
-        public string[] time { get; set; }
+        public string[]? time { get; set; }
         public void Monday();
         public void Tuesday();
         public void Wednesday();
@@ -77,11 +77,11 @@ namespace TimetableRightNow
 
     class TimeTable : ITimeTable
     {
-        public string[] time { get; set; }
+        public string[]? time { get; set; }
 
         public void Monday()
         {
-            Console.WriteLine("Monday");
+            Console.WriteLine(time);
         }
 
         public void Tuesday()
@@ -104,4 +104,5 @@ namespace TimetableRightNow
             Console.WriteLine("Friday");
         }
     }
+
 }
