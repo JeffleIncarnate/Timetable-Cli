@@ -14,27 +14,35 @@ namespace TimetableRightNow
         {
             string[][] timeTableArray = new string[][]
             {
-                new string[] { "ACC", "BREAK", "ENG", "LA", "LUNCH","TeWaaAko", "COM SCI" },
-                new string[] { "ENG", "BREAK", "MATH", "LA", "LUNCH","TeWaaAko", "COM SCI" }
+                new string[] { "Accounting", "Break", "English", "La", "Lunch","TeWaaAko", "Computer Science" },
+                new string[] { "English", "BREAK", "Mathematics", "Physics", "Lunhc","iTime", "Accounting" },
+                new string[] { "Physics", "Break", "Computer Science", "Lunch", "Mathematics" },
+                new string[] { "iTime", "Lunhc", "Accounting", "English" },
+                new string[] { "Mathematics", "Break", "La-iTime", "Lunch", "Computer Science", "Physics" }
             };
 
             dynamic day = new DateTime().DayOfWeek;
+            day = Convert.ToString(day);
 
             TimeTable timetable = new TimeTable();
             timetable.time = string.Format("{0:h:mm:ss tt}", DateTime.Now).Split(':');
 
+            int hour = Convert.ToInt32(timetable.time[0]);
+            int minute = Convert.ToInt32(timetable.time[1]);
             string amOrPm = timetable.time[2].Split(' ')[1];
 
             if (day == "Saturday" || day == "Sunday")
                 Console.WriteLine("No classes!");
 
-            if (Convert.ToInt32(timetable.time[0]) <= 9)
+            if (hour <= 10 && minute <= 9 && day == "Thurday")
+                Console.WriteLine("No Classes!");
 
-                if (Convert.ToInt32(timetable.time[0]) <= 9 && amOrPm == "am")
-                    Console.WriteLine("No Classes!");
 
-                else if (Convert.ToInt32(timetable.time[0]) >= 3 && amOrPm == "pm")
-                    Console.WriteLine("No Classes!");
+            if (hour <= 9 && amOrPm == "am")
+                Console.WriteLine("No Classes!");
+
+            if (hour >= 3 && amOrPm == "pm")
+                Console.WriteLine("No Classes!");
 
             switch (day)
             {
